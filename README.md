@@ -1,8 +1,25 @@
-ZooifyIt!
+DataGenerator
 ==============
 
-![cow logo](https://openclipart.org/image/300px/svg_to_png/194695/happy-cow.png)
+Takes as input
+* number of rows
+* number of columns
+* types of columns
+* type of data gen
 
-Using Zoological technology to investigate Orthographic Statistics. Oh snap.
+Column Types
+* ranges for random numbers
+* ranges for dates
+* strings
 
-Try it out live: http://wugology.com/stuff/zooify.html
+String subtypes
+* first name
+* last name
+* state
+* city
+
+Type of data gen
+* pick from a list at random
+* pick next value from list
+* repeating (string, date, or number)
+* incrementing (date or number)
