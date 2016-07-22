@@ -9,15 +9,13 @@ img {
   height: 50px; 
 }
 
-input { 
-  width: 80%;
-  margin: 0 auto;
-  font-size: large; 
-}
-
 p {
   width: 90%;
   margin: 10 auto;
+}
+
+button {
+    background-color:#7BAFD4
 }
 
 body {
@@ -37,9 +35,19 @@ body {
 
 Instructions go here...
 </p>
+<p>Enter number of rows: <input tpye="number" name ="NumRow" size="10"></p>
+<p>Enter number of columns: <input tpye="number" name ="NumRow" size="10"></p>
+<p>Select column type:
+<select name="dropdown">
+    <option value="date">Date</option>
+    <option value="number">Number</option>
+    <option value="text">Text</option>
+</select>
+</p>
 
-<input placeholder="Type something in this box...">
-<button>Do the needful</button>
+<p>Name your file:     <br>
+<input size=75 placeholder="Type in this box..."></p>
+    <p><button><h2>Do the needful</h2></button></p>
 
 
 </body>
