@@ -62,6 +62,12 @@ button.addEventListener('click', function(ev){
 // generate integers randomly in that range, up to rowNum numbers
 // }
 
+// if (colType == "text") {
+// generate an input for manual text entry, or upload .txt file?
+// not sure what to do here...
+// }
+
+
 	console.log(colNum);
 	console.log(rowNum);
 	console.log(colNames);
