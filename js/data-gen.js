@@ -25,7 +25,7 @@ var lastNames = ['Kumar','Singh','Gupta','Sharma','Reddy',
 button.addEventListener('click', function(ev){
    var rowNum = document.querySelector('input.numRow').value;
    var colNum = document.querySelector('input.numCol').value;
-   var colNames = document.querySelector('input.othertext').value;
+   var colNames = document.querySelector('input.colNames').value;
 
 
 // for (var i = 0; i < colNum; ++i) {
